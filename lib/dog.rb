@@ -12,3 +12,7 @@ end
 lassie = Dog.new
 lassie.name = "Lassie"
 lassie.name
+
+#Inside the #name= method, we set the value of @this_dogs_name equal to
+# whatever string is passed in as an argument. Then, we are able to call
+# on that same instance variable in a totally separate method, the #name method.
