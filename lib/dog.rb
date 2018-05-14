@@ -1,6 +1,7 @@
 class Dog #this is the class
   def name=(dog_name) #this instance method is 'setting'
-    this_dogs_name = dog_name #
+    this_dogs_name = dog_name
+    #this_dogs_name is a local variable with a local scope
   end
 
   def name #this instance method that reads the dog's name is 'getting'
