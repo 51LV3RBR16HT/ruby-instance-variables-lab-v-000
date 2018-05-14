@@ -5,10 +5,9 @@ class Dog #this is the class
 
   def name #this instance method that reads the dog's name is 'getting'
     this_dogs_name
+
+    lassie = Dog.new
+    lassie.name = "Lassie"
+    lassie.name
   end
 end
-
-lassie = Dog.new
-lassie.name = "Lassie"
-
-lassie.name
